@@ -1,0 +1,10 @@
+{% extends 'tokeniser/index.html' %}
+
+{% block content %}
+    <ul>
+        {% for entry in tokens %}
+            <li>{{ entry }}</li>
+        {% endfor %}
+    </ul>
+{% endblock content %}
+
